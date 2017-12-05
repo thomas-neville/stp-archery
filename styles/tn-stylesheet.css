@@ -21,7 +21,6 @@
 
 .tn-section li {
   background-color: #D6E8B8;
-  border-color: #D6E8B8;
   padding: 0;
 }
 
@@ -50,7 +49,7 @@
 }
 
 .tn-group { 
-  zoom:1;
+  zoom: 1;
 }
 
 .tn-span_4_of_4 {
@@ -75,3 +74,4 @@
   .tn-span_1_of_4, .tn-span_2_of_4, .tn-span_3_of_4, .tn-span_4_of_4 { 
     width: 100%; 
   }
+}
