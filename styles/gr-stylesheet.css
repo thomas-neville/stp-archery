@@ -28,6 +28,7 @@ h3  {
   margin: 1em 0 1em 0;
   text-align: center;
   text-decoration: underline;
+  color: #94C840;
 }
 
 main, section.gr-row {
@@ -79,6 +80,7 @@ section h2  {
   text-align: center;
   text-decoration: underline;
   margin-top: 2em;
+  color: #94C840;
 }
 
 ul[class^='gr-col_']  {
