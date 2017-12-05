@@ -1,0 +1,54 @@
+.tn-row1 {
+  box-sizing: border-box;
+  width: 99vw;
+  max-height: 7vh;
+}
+
+.tn-row1::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+
+.tn-logo {
+  box-sizing: border-box;
+  max-width: 14.5%;
+  max-height: inherit;
+  margin: 0 .2rem .2rem 0;
+}
+
+.tn-h1 {
+  box-sizing: border-box;
+  width: 84.5%;
+  margin: .5rem 0;
+  text-align: center;
+}
+
+.tn-navitem {
+  box-sizing: border-box;
+  width: 24vw;
+}
+
+.tn-navitem li a {
+  text-decoration: none;
+  
+}
+
+.tn-row2 {
+  box-sizing: border-box;
+  width: 99vw;
+  max-height: 7vh;
+}
+
+.tn-row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="tn-"] {
+  float: left;
+  padding: 0;
+  border: 1px solid black;
+  /* REMOVE BORDER WHEN DONE */
+}
