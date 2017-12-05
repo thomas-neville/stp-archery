@@ -86,15 +86,15 @@ body  {
   }
 }
 
-pm-container {
-  max-width: 500px;
+.pm-container {
+  max-width: 55vw;
 }
 
-mySlides {
+.mySlides {
   width: 100%;
   display: none;
 }
 
-pm-intro {
-  
+.pm-intro {
+  clear: both;
 }
