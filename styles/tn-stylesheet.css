@@ -49,7 +49,7 @@
 }
 
 .tn-group { 
-  zoom: 1;
+  zoom: 1; /* Error in validator, but responsivegridsystem.com says this is for IE 6/7 */
 }
 
 .tn-span_4_of_4 {
