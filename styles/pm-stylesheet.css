@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body  {
-  background-color: white;
-}
-
 .tn-section {
   clear: both;
   padding: 0px;
@@ -87,7 +83,15 @@ body  {
 }
 
 .pm-container {
-  max-width: 55vw;
+  padding: 4em 2em;
+  background-color: #523E33;
+}
+
+.pm-container img {
+  max-width: 75%;
+  max-height: 75%; 
+  border-radius: 2%;
+  
 }
 
 .mySlides {
@@ -97,4 +101,12 @@ body  {
 
 .pm-intro {
   clear: both;
+  background-color: #eeefeb;
+}
+
+.pm-intro p {
+  width: 75%;
+  padding: 3rem 0 3rem 0;
+  text-align: center;
+  font-family: 'Abel', 'Barlow', sans-serif; 
 }
