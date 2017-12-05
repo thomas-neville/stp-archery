@@ -35,6 +35,7 @@
 	margin: 1% 0 1% 0%;
     text-align: center;
 }
+
 .tn-col:first-child { margin-left: 0; }
 
 .tn-group:before,
@@ -42,13 +43,14 @@
 .tn-group:after { clear:both;}
 .tn-group { zoom:1;}
 
-/*  GRID OF FOUR  */
 .tn-span_4_of_4 {
 	width: 100%;
 }
+
 .tn-span_3_of_4 {
 	width: 74.6%;
 }
+
 .tn-span_2_of_4 {
 	width: 49.2%;
 }
