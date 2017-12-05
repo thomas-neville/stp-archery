@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/slnx.sqlite
+*.sqlite-journal
+/.vs/VSWorkspaceState.json
+/.vs/config/applicationhost.config
+/.vs/ProjectSettings.json
