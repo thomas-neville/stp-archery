@@ -1,0 +1,100 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img  {
+  width: 10%;
+}
+
+body  {
+  background-color: white;
+}
+
+.gr-sub-head  {
+  width: 100%;
+  height: 2%;
+  background-color: #94C840;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+}
+
+h3  {
+  text-decoration: underline;
+}
+
+#gr-top  {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+main, section.gr-row {
+  width: 100%;
+  margin: auto;
+}
+
+main, section.gr-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article.gr, aside[class^='gr-col_']  {
+  float: left;
+  border: 1px solid white;
+  background-color: #94877E;
+  margin-left: 1em;
+  box-shadow: 2px 2px 2px black;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: box 5s infinite;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes box {
+  10% {box-shadow: 10px 20px 30px white;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px white;}
+}
+
+article.gr, aside.gr-col_1_of_4 {width: 23.5%;}
+
+img.gr-lesson {
+  width: 100%;
+  height: 100%;
+}
+
+ul  {
+  list-style: none;
+}
+
+section h2  {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 2em;
+}
+
+ul[class^='gr-col_']  {
+  float: left;
+  background-color: #99FFCC;
+  border: 1px solid white;
+}
+
+ul.gr-col_1_of_3 {
+  width: 32%;
+  background-color: #94877E;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  padding: .5em;
+  margin: .8em 0 1em 1em;
+  box-shadow: 2px 2px 2px black;
+  -webkit-animation: box 5s infinite; /* Chrome, Safari, Opera */
+  animation: box 5s infinite;
+}
