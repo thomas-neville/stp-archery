@@ -52,7 +52,7 @@
 }
 
 .tn-group { 
-  zoom: 1; /* Error in validator, but responsivegridsystem.com says this is for IE 6/7 */
+  zoom: 1; /* Error CSS in validator, but responsivegridsystem.com says this is for IE 6/7 */
 }
 
 .tn-span_4_of_4 {
@@ -80,8 +80,11 @@
 }
 
 /* Footer CSS - Thomas Neville */
-.tn-ft-font {
+.tn-footer {
   font-size: .8rem;
+  border-top: 1.3rem solid #523E33;
+  padding-top: .5rem;
+  background-color: rgba(148,135,126,0.5)
 }
 
 .tn-ft-i {
@@ -126,7 +129,7 @@
 }
 
 .tn-ft-group { 
-  zoom: 1; /* Error in validator, but responsivegridsystem.com says this is for IE 6/7 */
+  zoom: 1; /* Error in CSS validator, but responsivegridsystem.com says this is for IE 6/7 */
 }
 
 .tn-ft-span_4_of_4 {
