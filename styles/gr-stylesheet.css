@@ -29,6 +29,7 @@ h3  {
   text-align: center;
   text-decoration: underline;
   color: #94C840;
+  text-shadow: 1px 1px black;
 }
 
 main, section.gr-row {
@@ -81,6 +82,7 @@ section h2  {
   text-decoration: underline;
   margin-top: 2em;
   color: #94C840;
+  text-shadow: 1px 1px black;
 }
 
 ul[class^='gr-col_']  {
