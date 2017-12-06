@@ -43,7 +43,7 @@
 .tr-about-section {
     background-image: url('../images/about_background_2.jpg');
     background-color: cornsilk;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Abel', 'Barlow', sans-serif;
     font-size: xx-large;
