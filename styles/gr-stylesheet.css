@@ -18,6 +18,8 @@ body  {
   background-color: #94C840;
   text-align: center;
   text-shadow: 1px 1px 1px white;
+  font-family: 'Barlow', sans-serif;
+  margin: 1em 0 2em 0;
 }
 
 h3  {
@@ -30,6 +32,7 @@ h3  {
   text-decoration: underline;
   color: #94C840;
   text-shadow: 1px 1px black;
+  font-family: 'Barlow', sans-serif;
 }
 
 main, section.gr-row {
@@ -83,6 +86,7 @@ section h2  {
   margin-top: 2em;
   color: #94C840;
   text-shadow: 1px 1px black;
+  font-family: 'Barlow', sans-serif;
 }
 
 ul[class^='gr-col_']  {
