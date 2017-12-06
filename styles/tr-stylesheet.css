@@ -35,7 +35,7 @@
 .tr-about-page-heading {
     width: auto;
     background-color: darkkhaki;
-    color:blueviolet;
+    color: #94C840;
     text-align: center;
 }
 
@@ -45,18 +45,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Abel', 'Barlow', sans-serif;
-    font-size:xx-large;
-    color:blueviolet;
-    font-weight:900;
+    font-size: xx-large;
+    color: #94C840;
+    font-weight: 900;
 }
 
 .tr-about-section h1 {
     font-family: 'Abel', 'Barlow', sans-serif;
-    color: blueviolet;
+    color: #94C840;
+    padding-bottom: 0;
 }
-
-
-
 
 
 
