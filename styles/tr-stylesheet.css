@@ -44,10 +44,14 @@
     background-image: url('../images/about_background_2.jpg');
     background-color: cornsilk;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-size: 100%;
 =======
     background-size: contain;
 >>>>>>> de390b1cb2626eda12705e7b7fbd4837a6c77793
+=======
+    background-size: cover;
+>>>>>>> 1d99bd36d4a2fd604d94cdc02b6a6ceb95583373
     background-repeat: no-repeat;
     font-family: 'Abel', 'Barlow', sans-serif;
     font-size: xx-large;
