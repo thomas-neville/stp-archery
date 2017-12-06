@@ -2,6 +2,12 @@
 
 /* Index slideshow, Intro Article, Article w/ Linked Icons created by Patricia Marcheselli - classes starting with initials pm */
 
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Slideshow - Patricia Marcheselli */
 .pm-container {
   padding: 4em 2em;
