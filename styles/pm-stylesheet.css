@@ -82,6 +82,9 @@
   }
 }
 
+/* Index slideshow, Intro Article, Article w/ Linked Icons created by Patricia Marcheselli - classes starting with initials pm */
+
+/* Slideshow - Patricia Marcheselli */
 .pm-container {
   padding: 4em 2em;
   background-color: #523E33;
@@ -98,6 +101,7 @@
   display: none;
 }
 
+/* Intro Artcile - Patricia Marcheselli */
 .pm-intro {
   clear: both;
   background-color: #eeefeb;
@@ -119,6 +123,7 @@
   font-family: 'Abel', 'Barlow', sans-serif; 
 }
 
+/* Article w/ Linked Icons */
 .pm-preview {
   clear: both;
   background-color: #ffffff;
