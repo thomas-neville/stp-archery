@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/VSWorkspaceState.json
+/.vs/config/applicationhost.config
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
