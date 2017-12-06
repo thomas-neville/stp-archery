@@ -80,6 +80,14 @@
 }
 
 /* Footer CSS - Thomas Neville */
+.tn-ft-font {
+  font-size: .8rem;
+}
+
+.tn-ft-i {
+  font-size: 1.5rem;
+}
+
 .tn-ft-section {
   clear: both;
   padding: 0px;
@@ -87,21 +95,14 @@
   font-family: 'Abel', 'Barlow', sans-serif; 
 }
 
-.tn-ft-section ul li {
-  text-decoration: none;
-}
-
 .tn-ft-section li a {
   text-decoration: none;
   color: #523E33;
 }
 
-.tn-ft-section li {
+.tn-ft-section ul {
   padding: 0;
-}
-
-.tn-ft-section li:hover {
-  color: #94C840;
+  list-style-type: none;
 }
 
 .tn-ft-col {
@@ -141,16 +142,16 @@
   width: 50%;
 }
 .tn-ft-span_1_of_4 {
-  width: 25%;
+  width: 23%;
   text-align: left;
-  margin: 1rem;
+  margin: 0 1%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px) {
   .tn-ft-col {
     margin: .5% 0 .5% 0%; 
   }
-  .tn-ft-span_1_of_4, .tn-ft-span_2_of_4, .tn-ft-span_3_of_4, .tn-ft-span_4_of_4, { 
+  .tn-ft-span_1_of_4, .tn-ft-span_2_of_4, .tn-ft-span_3_of_4, .tn-ft-span_4_of_4 { 
     width: 100%;
     margin-top: 1rem;
   }
