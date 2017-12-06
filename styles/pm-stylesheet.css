@@ -1,0 +1,112 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tn-section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+.tn-section img {
+  width: 4rem;
+}
+
+.tn-section h1 {
+  margin: 1.5rem;
+  color: #523E33;
+}
+
+.tn-section li a {
+  text-decoration: none;
+  color: #523E33;
+}
+
+.tn-section li {
+  background-color: #D6E8B8;
+  padding: 0;
+}
+
+.tn-section li:hover {
+  background-color: #94C840;
+}
+
+.tn-col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 0%;
+  text-align: center;
+}
+
+.tn-col:first-child { 
+  margin-left: 0; 
+}
+
+.tn-group:before, .tn-group:after { 
+  content:""; 
+  display:table; 
+}
+
+.tn-group:after {
+  clear:both;
+}
+
+.tn-group { 
+  zoom: 1; /* Error in validator, but responsivegridsystem.com says this is for IE 6/7 */
+}
+
+.tn-span_4_of_4 {
+  width: 100%;
+}
+
+.tn-span_3_of_4 {
+  width: 74.6%;
+}
+
+.tn-span_2_of_4 {
+  width: 49.2%;
+}
+.tn-span_1_of_4 {
+  width: 25%;
+}
+
+@media only screen and (max-width: 480px) {
+  .tn-col {
+    margin: .5% 0 .5% 0%; 
+  }
+  .tn-span_1_of_4, .tn-span_2_of_4, .tn-span_3_of_4, .tn-span_4_of_4 { 
+    width: 100%; 
+  }
+}
+
+.pm-container {
+  padding: 4em 2em;
+  background-color: #523E33;
+}
+
+.pm-container img {
+  max-width: 75%;
+  max-height: 75%; 
+  border-radius: 2%;
+  
+}
+
+.mySlides {
+  width: 100%;
+  display: none;
+}
+
+.pm-intro {
+  clear: both;
+  background-color: #eeefeb;
+}
+
+.pm-intro p {
+  width: 75%;
+  padding: 3rem 0 3rem 0;
+  text-align: center;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
