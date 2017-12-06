@@ -128,32 +128,30 @@
   zoom: 1; /* Error in validator, but responsivegridsystem.com says this is for IE 6/7 */
 }
 
-.tn-ft-span_5_of_5 {
+.tn-ft-span_4_of_4 {
   width: 100%;
   text-align: center;
 }
 
-.tn-ft-span_4_of_5 {
-  width: 80%;
+.tn-ft-span_3_of_4 {
+  width: 75%;
 }
 
-.tn-ft-span_3_of_5 {
-  width: 60%;
+.tn-ft-span_2_of_4 {
+  width: 50%;
 }
-
-.tn-ft-span_2_of_5 {
-  width: 40%;
-}
-.tn-ft-span_1_of_5 {
-  width: 20%;
+.tn-ft-span_1_of_4 {
+  width: 25%;
   text-align: left;
+  margin: 1rem;
 }
 
 @media only screen and (max-width: 480px) {
   .tn-ft-col {
     margin: .5% 0 .5% 0%; 
   }
-  .tn-ft-span_1_of_5, .tn-ft-span_2_of_5, .tn-ft-span_3_of_5, .tn-ft-span_4_of_5, .tn-ft-span_5_of_5 { 
-    width: 100%; 
+  .tn-ft-span_1_of_4, .tn-ft-span_2_of_4, .tn-ft-span_3_of_4, .tn-ft-span_4_of_4, { 
+    width: 100%;
+    margin-top: 1rem;
   }
 }
