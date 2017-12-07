@@ -34,6 +34,9 @@
   margin: 0;
 }
 
+/* Header and footer CSS created by Thomas Neville - classes starting with initials tn */
+
+/* Header CSS - Thomas Neville */
 .tn-section {
   clear: both;
   padding: 0px;
@@ -48,6 +51,10 @@
 .tn-section h1 {
   margin: 1.5rem;
   color: #523E33;
+}
+
+.tn-logo {
+  padding-left: .7rem;
 }
 
 .tn-section li a {
@@ -67,7 +74,7 @@
 .tn-col {
   display: block;
   float:left;
-  margin: 1% 0 1% 0%;
+  margin: 1% 0 0% 0%;
   text-align: center;
 }
 
@@ -85,7 +92,7 @@
 }
 
 .tn-group { 
-  zoom: 1; /* Error in validator, but responsivegridsystem.com says this is for IE 6/7 */
+  zoom: 1; /* Error CSS in validator, but responsivegridsystem.com says this is for IE 6/7 */
 }
 
 .tn-span_4_of_4 {
@@ -109,5 +116,90 @@
   }
   .tn-span_1_of_4, .tn-span_2_of_4, .tn-span_3_of_4, .tn-span_4_of_4 { 
     width: 100%; 
+  }
+}
+
+/* Footer CSS - Thomas Neville */
+.tn-footer {
+  font-size: .8rem;
+  border-top: 1.3rem solid #523E33;
+  padding-top: .5rem;
+  background-color: rgba(148,135,126,0.5)
+}
+
+.tn-ft-i {
+  font-size: 1.5rem;
+}
+
+.tn-ft-section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+.tn-ft-section li a {
+  text-decoration: none;
+  color: #523E33;
+}
+
+.tn-ft-section ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.tn-ft-col {
+  display: block;
+  float:left;
+  margin: 1% 0 0% 0%;
+  text-align: center;
+}
+
+.tn-ft-col:first-child { 
+  margin-left: 0; 
+}
+
+.tn-ft-group:before, .tn-group:after { 
+  content:""; 
+  display:table; 
+}
+
+.tn-ft-group:after {
+  clear:both;
+}
+
+.tn-ft-group { 
+  zoom: 1; /* Error in CSS validator, but responsivegridsystem.com says this is for IE 6/7 */
+}
+
+.tn-ft-map {
+  padding-left: 1rem;
+}
+
+.tn-ft-span_4_of_4 {
+  width: 100%;
+  text-align: center;
+}
+
+.tn-ft-span_3_of_4 {
+  width: 75%;
+}
+
+.tn-ft-span_2_of_4 {
+  width: 50%;
+}
+.tn-ft-span_1_of_4 {
+  width: 22.5%;
+  text-align: left;
+  margin: 0 1%;
+}
+
+@media only screen and (max-width: 650px) {
+  .tn-ft-col {
+    margin: .5% 0 .5% 0%; 
+  }
+  .tn-ft-span_1_of_4, .tn-ft-span_2_of_4, .tn-ft-span_3_of_4, .tn-ft-span_4_of_4 { 
+    width: 100%;
+    margin-top: 1rem;
   }
 }
