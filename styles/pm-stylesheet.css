@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Header CSS - Thomas Neville */
 .tn-section {
   clear: both;
   padding: 0px;
@@ -37,7 +37,7 @@
 .tn-col {
   display: block;
   float:left;
-  margin: 1% 0 1% 0%;
+  margin: 1% 0 0% 0%;
   text-align: center;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .tn-group { 
-  zoom: 1; /* Error in validator, but responsivegridsystem.com says this is for IE 6/7 */
+  zoom: 1; /* Error CSS in validator, but responsivegridsystem.com says this is for IE 6/7 */
 }
 
 .tn-span_4_of_4 {
@@ -82,16 +82,18 @@
   }
 }
 
+/* Index slideshow, Intro Article, Article w/ Linked Icons created by Patricia Marcheselli - classes starting with initials pm */
+
+/* Slideshow - Patricia Marcheselli */
 .pm-container {
   padding: 4em 2em;
   background-color: #523E33;
 }
 
 .pm-container img {
-  max-width: 75%;
-  max-height: 75%; 
+  width: 58%;
+  height: 58%;
   border-radius: 2%;
-  
 }
 
 .mySlides {
@@ -99,14 +101,68 @@
   display: none;
 }
 
+/* Intro Artcile - Patricia Marcheselli */
 .pm-intro {
   clear: both;
   background-color: #eeefeb;
 }
 
+.pm-intro h2 {
+  font-size: 28pt;
+  padding: 2.5em 0 0 0;
+  text-align: center;
+  color: #523E33;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
 .pm-intro p {
   width: 75%;
-  padding: 3rem 0 3rem 0;
+  padding: 2.5rem 0 7.5rem 0;
   text-align: center;
+  line-height: 2em;
   font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+/* Article w/ Linked Icons - Patricia Marcheselli */
+.pm-preview {
+  clear: both;
+  background-color: #ffffff;
+  margin: 0 10em 5em 10em;
+}
+
+.pm-preview h2 {
+  font-size: 28pt;
+  padding: 2.5em 0 0 0;
+  text-align: center;
+  color: rgb(148, 200, 64);
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+.pm-preview li {
+  margin: 2.75em 1em 0 1em; 
+  width: 30%;
+  float: left;
+  text-align: center;
+  list-style: none;
+  background-color: #eeefeb;
+}
+
+.pm-preview img {
+  position: relative;
+  min-height: 10em;
+  max-height: 12em;
+  width: 50%;
+}
+
+.pm-caption li {
+  background-color: #ffffff;
+  text-decoration: none;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+  margin: 1em 1em 7em 1em;
+}
+
+.pm-caption li a {
+  color: #523E33; 
+  text-decoration: none;
+  font-size: 16pt;
 }
