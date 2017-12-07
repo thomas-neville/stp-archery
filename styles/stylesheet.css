@@ -1,0 +1,267 @@
+/* Group 4 stylesheet to merge all CSS */
+
+/* Index slideshow, Intro Article, Article w/ Linked Icons created by Patricia Marcheselli - classes starting with initials pm */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Slideshow - Patricia Marcheselli */
+.pm-container {
+  padding: 4em 2em;
+  background-color: #523E33;
+}
+
+.pm-container img {
+  width: 58%;
+  height: 58%;
+  border-radius: 2%;
+}
+
+.mySlides {
+  width: 100%;
+  display: none;
+}
+
+/* Intro Artcile - Patricia Marcheselli */
+.pm-intro {
+  clear: both;
+  background-color: #eeefeb;
+}
+
+.pm-intro h2 {
+  font-size: 28pt;
+  padding: 2.5em 0 0 0;
+  text-align: center;
+  color: #523E33;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+.pm-intro p {
+  width: 75%;
+  padding: 2.5rem 0 7.5rem 0;
+  text-align: center;
+  line-height: 2em;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+/* Article w/ Linked Icons - Patricia Marcheselli */
+.pm-preview {
+  clear: both;
+  background-color: #ffffff;
+  margin: 0 10em 5em 10em;
+}
+
+.pm-preview h2 {
+  font-size: 28pt;
+  padding: 2.5em 0 0 0;
+  text-align: center;
+  color: rgb(148, 200, 64);
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+.pm-preview li {
+  margin: 2.75em 1em 0 1em; 
+  width: 30%;
+  float: left;
+  text-align: center;
+  list-style: none;
+  background-color: #eeefeb;
+}
+
+.pm-preview img {
+  position: relative;
+  min-height: 10em;
+  max-height: 12em;
+  width: 50%;
+}
+
+.pm-caption li {
+  background-color: #ffffff;
+  text-decoration: none;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+  margin: 1em 1em 7em 1em;
+}
+
+.pm-caption li a {
+  color: #523E33; 
+  text-decoration: none;
+  font-size: 16pt;
+}
+/* CSS for SERVICES done by George Roden classes starting with gr lines 95-202*/
+
+header img  {
+  width: 10%;
+}
+
+body  {
+  background-color: white;
+}
+
+.gr-sub-head  {
+  width: 100%;
+  height: 2%;
+  background-color: #94C840;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+  font-family: 'Barlow', sans-serif;
+  margin: 1em 0 2em 0;
+}
+
+h3  {
+  text-decoration: underline;
+}
+
+#gr-top  {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  text-decoration: underline;
+  color: #94C840;
+  text-shadow: 1px 1px black;
+  font-family: 'Barlow', sans-serif;
+}
+
+main, section.gr-row {
+  width: 100%;
+  margin: auto;
+}
+
+main, section.gr-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article.gr, aside[class^='gr-col_']  {
+  float: left;
+  border: 1px solid white;
+  background-color: #94877E;
+  margin-left: 1em;
+  box-shadow: 2px 2px 2px black;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: box 5s infinite;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes box {
+  10% {box-shadow: 10px 20px 30px white;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px white;}
+}
+
+article.gr, aside.gr-col_1_of_4 {width: 23.5%;}
+
+img.gr-lesson {
+  width: 100%;
+  height: 100%;
+}
+
+ul  {
+  list-style: none;
+}
+
+section h2  {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 2em;
+  color: #94C840;
+  text-shadow: 1px 1px black;
+  font-family: 'Barlow', sans-serif;
+}
+
+ul[class^='gr-col_']  {
+  float: left;
+  background-color: #99FFCC;
+  border: 1px solid white;
+}
+
+ul.gr-col_1_of_3 {
+  width: 32%;
+  background-color: #94877E;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  padding: .5em;
+  margin: .8em 0 1em 1em;
+  box-shadow: 2px 2px 2px black;
+  -webkit-animation: box 5s infinite; /* Chrome, Safari, Opera */
+  animation: box 5s infinite;
+}
+
+.fast  {
+  margin-left: 29vw;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+/*tr section*/
+.tr-about-page-heading {
+    width: auto;
+    background-color: #94C840;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+
+.tr-about-section {
+    background-image: url('../images/about_background_2.jpg');
+    background-color: cornsilk;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Abel', 'Barlow', sans-serif;
+    font-size: xx-large;
+    color: #94C840;
+    font-weight: 900;
+}
+
+.tr-about-section h1 {
+    font-family: 'Abel', 'Barlow', sans-serif;
+    color: #94C840;
+    padding-bottom: 0;
+}
+
+/* CSS for INSTRUCTORS PAGE done by Anna Nguyen. Classes starting with an initials */
+
+.an-mainbody {
+  clear: both;
+  overflow: hidden;
+}
+
+.an-mainbody figure {
+  margin: 0;
+  width: 33.33%;
+  padding: 100px 0 200px 0;
+  float: left;
+  text-align: center;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+.an-mainbody img {
+  position: relative;
+  min-height: 200px;
+  max-height: 200px;
+  width: 55%;
+  border-radius: 5%;
+}
+
+.an-mainbody figcaption {
+  padding: 0 50px;
+}
+
+.an-mainbody h2 {
+  margin: 20px 0 0 0;
+  color: rgb(148, 200, 64);
+  font-size: 28pt;
+}
+
+.an-mainbody p {
+  margin: 0;
+}
