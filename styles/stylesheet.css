@@ -228,3 +228,40 @@ ul.gr-col_1_of_3 {
     padding-bottom: 0;
 }
 
+/* CSS for INSTRUCTORS PAGE done by Anna Nguyen. Classes starting with an initials */
+
+.an-mainbody {
+  clear: both;
+  overflow: hidden;
+}
+
+.an-mainbody figure {
+  margin: 0;
+  width: 33.33%;
+  padding: 100px 0 200px 0;
+  float: left;
+  text-align: center;
+  font-family: 'Abel', 'Barlow', sans-serif; 
+}
+
+.an-mainbody img {
+  position: relative;
+  min-height: 200px;
+  max-height: 200px;
+  width: 55%;
+  border-radius: 5%;
+}
+
+.an-mainbody figcaption {
+  padding: 0 50px;
+}
+
+.an-mainbody h2 {
+  margin: 20px 0 0 0;
+  color: rgb(148, 200, 64);
+  font-size: 28pt;
+}
+
+.an-mainbody p {
+  margin: 0;
+}
