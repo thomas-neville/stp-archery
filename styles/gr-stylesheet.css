@@ -18,6 +18,8 @@ body  {
   background-color: #94C840;
   text-align: center;
   text-shadow: 1px 1px 1px white;
+  font-family: 'Barlow', sans-serif;
+  margin: 1em 0 2em 0;
 }
 
 h3  {
@@ -29,6 +31,8 @@ h3  {
   text-align: center;
   text-decoration: underline;
   color: #94C840;
+  text-shadow: 1px 1px black;
+  font-family: 'Barlow', sans-serif;
 }
 
 main, section.gr-row {
@@ -81,6 +85,8 @@ section h2  {
   text-decoration: underline;
   margin-top: 2em;
   color: #94C840;
+  text-shadow: 1px 1px black;
+  font-family: 'Barlow', sans-serif;
 }
 
 ul[class^='gr-col_']  {
@@ -99,4 +105,10 @@ ul.gr-col_1_of_3 {
   box-shadow: 2px 2px 2px black;
   -webkit-animation: box 5s infinite; /* Chrome, Safari, Opera */
   animation: box 5s infinite;
+}
+
+.fast  {
+  margin-left: 29vw;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
