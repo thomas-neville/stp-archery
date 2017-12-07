@@ -51,7 +51,9 @@
 .pm-preview {
   clear: both;
   background-color: #ffffff;
-  margin: 0 10em 5em 10em;
+  margin: 0 10em 0 10em;
+  height: 100%;
+  overflow: auto;
 }
 
 .pm-preview h2 {
