@@ -339,10 +339,6 @@ ul.gr-col_1_of_3 {
   clear:both;
 }
 
-.tn-group { 
-  zoom: 1; /* Error CSS in validator, but responsivegridsystem.com says this is for IE 6/7 */
-}
-
 .tn-span_4_of_4 {
   width: 100%;
 }
@@ -414,10 +410,6 @@ ul.gr-col_1_of_3 {
 
 .tn-ft-group:after {
   clear:both;
-}
-
-.tn-ft-group { 
-  zoom: 1; /* Error in CSS validator, but responsivegridsystem.com says this is for IE 6/7 */
 }
 
 .tn-ft-map {
