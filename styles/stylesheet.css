@@ -51,7 +51,9 @@
 .pm-preview {
   clear: both;
   background-color: #ffffff;
-  margin: 0 10em 5em 10em;
+  margin: 0 10em 0 10em;
+  height: 100%;
+  overflow: auto;
 }
 
 .pm-preview h2 {
@@ -90,6 +92,8 @@
   text-decoration: none;
   font-size: 16pt;
 }
+
+
 /* CSS for SERVICES done by George Roden classes starting with gr lines 95-202*/
 
 header img  {
@@ -204,11 +208,13 @@ ul.gr-col_1_of_3 {
 
 /*tr section*/
 .tr-about-page-heading {
-    width: auto;
+    width: 100%;
+    height: 2%;
     background-color: #94C840;
-    color: black;
     text-align: center;
     text-shadow: 1px 1px 1px white;
+    font-family: 'Barlow', sans-serif;
+    margin: 1em 0 2em 0;
 }
 
 .tr-about-section {
@@ -233,6 +239,16 @@ ul.gr-col_1_of_3 {
 .an-mainbody {
   clear: both;
   overflow: hidden;
+}
+
+.an-sub-head  {
+  width: 100%;
+  height: 2%;
+  background-color: #94C840;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+  font-family: 'Barlow', sans-serif;
+  margin: 1em 0 2em 0;
 }
 
 .an-mainbody figure {
