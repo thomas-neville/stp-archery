@@ -266,11 +266,6 @@ ul.gr-col_1_of_3 {
 
 /* CSS for INSTRUCTORS PAGE done by Anna Nguyen. Classes starting with an initials */
 
-.an-mainbody {
-  clear: both;
-  overflow: hidden;
-}
-
 .an-sub-head  {
   width: 100%;
   height: 2%;
@@ -279,6 +274,11 @@ ul.gr-col_1_of_3 {
   text-shadow: 1px 1px 1px white;
   font-family: 'Barlow', sans-serif;
   margin: 1em 0 2em 0;
+}
+
+.an-mainbody {
+  clear: both;
+  overflow: hidden;
 }
 
 .an-mainbody figure {
