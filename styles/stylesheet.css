@@ -406,6 +406,13 @@ ul.gr-col_1_of_3 {
 .tn-ft-section li a {
   text-decoration: none;
   color: #523E33;
+  padding: 0 .5rem;
+  margin-left: .5rem;
+}
+
+.tn-ft-section ul li a:hover {
+  color: #94C840;
+  background-color: #523E33;
 }
 
 .tn-ft-section ul {
