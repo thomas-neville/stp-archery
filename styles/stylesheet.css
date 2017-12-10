@@ -326,6 +326,7 @@ ul.gr-col_1_of_3 {
 }
 
 .tn-section li a {
+  display: block;
   text-decoration: none;
   color: #523E33;
 }
@@ -461,6 +462,9 @@ ul.gr-col_1_of_3 {
   .tn-ft-span_1_of_4, .tn-ft-span_2_of_4, .tn-ft-span_3_of_4, .tn-ft-span_4_of_4 { 
     width: 100%;
     margin-top: 1rem;
+  }
+  .tn-ft-map {
+    width: 10rem;
   }
 }
 /* End of Thomas Neville's CSS */
